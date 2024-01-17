@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingsFragment"
+    android:background="@color/birunabung">
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="match_parent"
+        android:layout_height="467dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/img"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/rose"/>
+
+        <TextView
+            android:id="@+id/namaSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="29dp"
+            android:text="####"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/emailSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="3@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            tools:ignore="TextSizeCheck" />
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_width="338dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:padding="25dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+                android:padding="15dp"
+                android:text="Materi"
+                android:textColor="@color/black"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="340dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="10dp"
+            android:textColor="@color/black">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Versi"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:gravity="end"
+                android:text="1.0.0"
+                android:textColor="@color/black"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_width="340dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnLogout"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableEnd="@drawable/arrow_red"
+                android:padding="15dp"
+                android:textColor="#F75555"
+                android:text="Logout" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</FrameLayout>

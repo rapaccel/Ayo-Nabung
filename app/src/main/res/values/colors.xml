@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="birunabung">#4D81C2</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_bg">#E0E8F7</color>
+    <color name="red">#F51A1A</color>
+    <color name="grey">#8E8C8C</color>
+    <color name="green">#3BAC4B</color>
+</resources>
